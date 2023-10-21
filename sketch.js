@@ -24,7 +24,7 @@ function setup() {
   posY = windowHeight / 2;
   diametro = 100;
   radio = diametro / 2;
-  fondo = color(25, 100, 50);
+  fondo = color(25, random(100, 150), 50);
 }
 
 function draw() {
